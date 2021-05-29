@@ -21,3 +21,9 @@ Route::get('/', 'PagesController@select');
 Route::get('/selectwhere0226', 'PagesController@selectwhere');
 Route::get('/selectjoin0226', 'PagesController@selectjoin');
 Route::get('/joinwhere0226', 'PagesController@joinwhere');
+
+Route::get('/', 'DbController@index');
+Route::get('/selectwhere0226', 'WhereController@index');
+Route::get('/selectjoin0226', 'JoinController@index');
+Route::get('/joinwhere0226', 'JoWhereController@index');
+
